@@ -11,6 +11,7 @@
 		D464BF061630F61B00F4BDC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D464BF041630F61B00F4BDC3 /* InfoPlist.strings */; };
 		D499ED441630FBBB00E29D4B /* QSChatMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D499ED431630FBBB00E29D4B /* QSChatMediator.m */; };
 		D499ED551631C54D00E29D4B /* ChatBubble.png in Resources */ = {isa = PBXBuildFile; fileRef = D499ED541631C54D00E29D4B /* ChatBubble.png */; };
+		D499ED811631CC6500E29D4B /* QSRegistry+QSChatMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D499ED801631CC6500E29D4B /* QSRegistry+QSChatMediator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		D499ED421630FBBB00E29D4B /* QSChatMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSChatMediator.h; sourceTree = "<group>"; };
 		D499ED431630FBBB00E29D4B /* QSChatMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSChatMediator.m; sourceTree = "<group>"; };
 		D499ED541631C54D00E29D4B /* ChatBubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChatBubble.png; sourceTree = "<group>"; };
+		D499ED7F1631CC6500E29D4B /* QSRegistry+QSChatMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QSRegistry+QSChatMediator.h"; sourceTree = "<group>"; };
+		D499ED801631CC6500E29D4B /* QSRegistry+QSChatMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QSRegistry+QSChatMediator.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +74,8 @@
 			children = (
 				D499ED421630FBBB00E29D4B /* QSChatMediator.h */,
 				D499ED431630FBBB00E29D4B /* QSChatMediator.m */,
+				D499ED7F1631CC6500E29D4B /* QSRegistry+QSChatMediator.h */,
+				D499ED801631CC6500E29D4B /* QSRegistry+QSChatMediator.m */,
 				D464BF071630F61B00F4BDC3 /* Configuration */,
 				D464BF021630F61B00F4BDC3 /* Supporting Files */,
 			);
@@ -182,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D499ED441630FBBB00E29D4B /* QSChatMediator.m in Sources */,
+				D499ED811631CC6500E29D4B /* QSRegistry+QSChatMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
