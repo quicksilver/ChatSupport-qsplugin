@@ -133,7 +133,7 @@
 		<key>extendedDescription</key>
 		<string>HTML formatted documentation for this plug-in.</string>
 		<key>icon</key>
-		<string>KEXT</string>
+		<string>ChatBubble</string>
 	</dict>
 	<key>QSPresetAdditionsTemplate</key>
 	<array>
