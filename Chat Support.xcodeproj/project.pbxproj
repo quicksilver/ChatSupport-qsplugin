@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D464BF001630F61B00F4BDC3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D464BEFF1630F61B00F4BDC3 /* Cocoa.framework */; };
+		D464BF061630F61B00F4BDC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D464BF041630F61B00F4BDC3 /* InfoPlist.strings */; };
+		D499ED411630FA6E00E29D4B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D499ED401630FA6E00E29D4B /* Info.plist */; };
+		D499ED441630FBBB00E29D4B /* QSChatMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = D499ED431630FBBB00E29D4B /* QSChatMediator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D464BEFC1630F61B00F4BDC3 /* Chat Support.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat Support.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D464BEFF1630F61B00F4BDC3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D464BF051630F61B00F4BDC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D464BF081630F61B00F4BDC3 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		D464BF091630F61B00F4BDC3 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		D464BF0A1630F61B00F4BDC3 /* Developer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
+		D464BF0B1630F61B00F4BDC3 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
+		D464BF0C1630F61B00F4BDC3 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
+		D464BF0D1630F61B00F4BDC3 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D499ED401630FA6E00E29D4B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		D499ED421630FBBB00E29D4B /* QSChatMediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSChatMediator.h; sourceTree = "<group>"; };
+		D499ED431630FBBB00E29D4B /* QSChatMediator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSChatMediator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D464BEF91630F61B00F4BDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D464BF001630F61B00F4BDC3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D464BEF01630F61B00F4BDC3 = {
+			isa = PBXGroup;
+			children = (
+				D464BF011630F61B00F4BDC3 /* Chat Support */,
+				D464BEFE1630F61B00F4BDC3 /* Frameworks */,
+				D464BEFD1630F61B00F4BDC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D464BEFD1630F61B00F4BDC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D464BEFC1630F61B00F4BDC3 /* Chat Support.qsplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D464BEFE1630F61B00F4BDC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D464BEFF1630F61B00F4BDC3 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D464BF011630F61B00F4BDC3 /* Chat Support */ = {
+			isa = PBXGroup;
+			children = (
+				D499ED421630FBBB00E29D4B /* QSChatMediator.h */,
+				D499ED431630FBBB00E29D4B /* QSChatMediator.m */,
+				D464BF071630F61B00F4BDC3 /* Configuration */,
+				D464BF021630F61B00F4BDC3 /* Supporting Files */,
+			);
+			path = "Chat Support";
+			sourceTree = "<group>";
+		};
+		D464BF021630F61B00F4BDC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D499ED401630FA6E00E29D4B /* Info.plist */,
+				D464BF041630F61B00F4BDC3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D464BF071630F61B00F4BDC3 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D464BF081630F61B00F4BDC3 /* Common.xcconfig */,
+				D464BF091630F61B00F4BDC3 /* Debug.xcconfig */,
+				D464BF0A1630F61B00F4BDC3 /* Developer.xcconfig */,
+				D464BF0B1630F61B00F4BDC3 /* QSPlugIn.xcconfig */,
+				D464BF0C1630F61B00F4BDC3 /* Quicksilver.pch */,
+				D464BF0D1630F61B00F4BDC3 /* Release.xcconfig */,
+			);
+			name = Configuration;
+			path = /private/tmp/QS/Configuration;
+			sourceTree = "<absolute>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D464BEFB1630F61B00F4BDC3 /* Chat Support */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D464BF181630F61B00F4BDC3 /* Build configuration list for PBXNativeTarget "Chat Support" */;
+			buildPhases = (
+				D464BEF71630F61B00F4BDC3 /* ShellScript */,
+				D464BEF81630F61B00F4BDC3 /* Sources */,
+				D464BEF91630F61B00F4BDC3 /* Frameworks */,
+				D464BEFA1630F61B00F4BDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chat Support";
+			productName = "Chat Support";
+			productReference = D464BEFC1630F61B00F4BDC3 /* Chat Support.qsplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D464BEF21630F61B00F4BDC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Quicksilver;
+			};
+			buildConfigurationList = D464BEF51630F61B00F4BDC3 /* Build configuration list for PBXProject "Chat Support" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D464BEF01630F61B00F4BDC3;
+			productRefGroup = D464BEFD1630F61B00F4BDC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D464BEFB1630F61B00F4BDC3 /* Chat Support */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D464BEFA1630F61B00F4BDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D464BF061630F61B00F4BDC3 /* InfoPlist.strings in Resources */,
+				D499ED411630FA6E00E29D4B /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D464BEF71630F61B00F4BDC3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"$QS_BUILD_ROOT/Tools/bltrversion\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D464BEF81630F61B00F4BDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D499ED441630FBBB00E29D4B /* QSChatMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D464BF041630F61B00F4BDC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D464BF051630F61B00F4BDC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D464BF161630F61B00F4BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D464BF091630F61B00F4BDC3 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D464BF171630F61B00F4BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D464BF0D1630F61B00F4BDC3 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		D464BF191630F61B00F4BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D464BF0B1630F61B00F4BDC3 /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D464BF1A1630F61B00F4BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D464BF0B1630F61B00F4BDC3 /* QSPlugIn.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D464BEF51630F61B00F4BDC3 /* Build configuration list for PBXProject "Chat Support" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D464BF161630F61B00F4BDC3 /* Debug */,
+				D464BF171630F61B00F4BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D464BF181630F61B00F4BDC3 /* Build configuration list for PBXNativeTarget "Chat Support" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D464BF191630F61B00F4BDC3 /* Debug */,
+				D464BF1A1630F61B00F4BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D464BEF21630F61B00F4BDC3 /* Project object */;
+}
