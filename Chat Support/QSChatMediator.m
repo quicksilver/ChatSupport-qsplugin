@@ -9,6 +9,7 @@
 #import "QSRegistry+QSChatMediator.h"
 
 @implementation QSChatMediator
+
 + (id <QSChatMediator>)defaultMediator
 {
 	return [QSReg QSChatMediator];

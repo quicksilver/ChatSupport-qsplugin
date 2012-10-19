@@ -39,12 +39,7 @@ enum {
 
 #define kQSChatMediators @"QSChatMediators"
 
-@interface QSChatMediator : NSObject
-
-@end
-
 @protocol QSChatMediator
-+ (id <QSChatMediator>)defaultMediator;
 // Returns a mask
 
 + (int)			supportedChatTypes;
@@ -61,4 +56,10 @@ enum {
 - (BOOL)accountIsAvailable:(NSString *)accountID;
 - (NSString *) statusForAccount:(NSString *)accountID;
 //- (NSImage *) imageForAccount;
+@end
+
+@interface QSChatMediator : NSObject
+
++ (id <QSChatMediator>)defaultMediator;
+
 @end
