@@ -325,5 +325,15 @@
 			<string>Chat_Support</string>
 		</dict>
 	</array>
+	<key>QSResourceAdditions</key>
+	<dict>
+		<key>ChatBubble</key>
+		<dict>
+			<key>bundle</key>
+			<string>com.qsapp.QSChatSupport</string>
+			<key>resource</key>
+			<string>ChatBubble.png</string>
+		</dict>
+	</dict>
 </dict>
 </plist>
