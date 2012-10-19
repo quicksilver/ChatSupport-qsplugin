@@ -24,18 +24,98 @@
 	<string>1</string>
 	<key>QSActions</key>
 	<dict>
-		<key>Chat_SupportExampleAction</key>
+		<key>QSIMAccountAudioInviteAction</key>
 		<dict>
 			<key>actionClass</key>
-			<string>QSChat_SupportActionProvider</string>
+			<string>QSChatActions</string>
 			<key>actionSelector</key>
-			<string>performActionOnObject:</string>
+			<string>inviteAccountToAudioChat:</string>
 			<key>directTypes</key>
 			<array>
-				<string>QSChat_SupportType</string>
+				<string>qs.im.account</string>
 			</array>
 			<key>icon</key>
-			<string>ToolbarAdvanced</string>
+			<string>ChatBubble</string>
+			<key>name</key>
+			<string>Audio Chat</string>
+			<key>precedence</key>
+			<real>0.5</real>
+		</dict>
+		<key>QSIMAccountSendItemAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSChatActions</string>
+			<key>actionSelector</key>
+			<string>messageAccounts:withItem:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.im.account</string>
+			</array>
+			<key>icon</key>
+			<string>ChatBubble</string>
+			<key>indirectTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+				<string>NSFilenamesPboardType</string>
+			</array>
+			<key>name</key>
+			<string>IM Item...</string>
+		</dict>
+		<key>QSIMAccountSendItemReverseAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSChatActions</string>
+			<key>actionSelector</key>
+			<string>messageAccounts:withItem:</string>
+			<key>directTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+				<string>NSFilenamesPboardType</string>
+			</array>
+			<key>icon</key>
+			<string>ChatBubble</string>
+			<key>indirectTypes</key>
+			<array>
+				<string>qs.im.account</string>
+			</array>
+			<key>name</key>
+			<string>IM to Account...</string>
+			<key>reverseArguments</key>
+			<true/>
+		</dict>
+		<key>QSIMAccountSendMessageAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSChatActions</string>
+			<key>actionSelector</key>
+			<string>messageAccount:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.im.account</string>
+			</array>
+			<key>icon</key>
+			<string>ChatBubble</string>
+			<key>name</key>
+			<string>IM</string>
+			<key>precedence</key>
+			<integer>1</integer>
+		</dict>
+		<key>QSIMAccountVideoInviteAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSChatActions</string>
+			<key>actionSelector</key>
+			<string>inviteAccountToVideoChat:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.im.account</string>
+			</array>
+			<key>icon</key>
+			<string>ChatBubble</string>
+			<key>name</key>
+			<string>Video Chat</string>
+			<key>rankModification</key>
+			<real>0.5</real>
 		</dict>
 	</dict>
 	<key>QSPlugIn</key>
