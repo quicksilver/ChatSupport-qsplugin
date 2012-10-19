@@ -159,89 +159,22 @@
 	</array>
 	<key>QSRegistration</key>
 	<dict>
-		<key>QSActionProviders</key>
+		<key>QSRegistryHeaders</key>
 		<dict>
-			<key>QSChat_SupportActionProvider</key>
-			<string>QSChat_SupportActionProvider</string>
-		</dict>
-		<key>QSApplicationActionsTemplate</key>
-		<dict>
-			<key>com.domain.application</key>
+			<key>QSChatMediators</key>
 			<dict>
-				<key>Chat_SupportExampleCommand</key>
-				<dict>
-					<key>actionClass</key>
-					<string>QSChat_SupportActionProvider</string>
-					<key>command</key>
-					<string>Chat_SupportExampleCommand</string>
-					<key>name</key>
-					<string>Application Action Example</string>
-				</dict>
-			</dict>
-		</dict>
-		<key>QSBundleChildHandlers</key>
-		<dict>
-			<key>QSChat_SupportType</key>
-			<string>QSChat_SupportSource</string>
-		</dict>
-		<key>QSBundleChildHandlersTemplate</key>
-		<dict>
-			<key>com.domain.application</key>
-			<string>QSChat_SupportSource</string>
-		</dict>
-		<key>QSCommandsTemplate</key>
-		<dict>
-			<key>Chat_SupportExampleCommand</key>
-			<dict>
-				<key>command</key>
-				<dict>
-					<key>actionID</key>
-					<string>QSObjCSendMessageAction</string>
-					<key>directArchive</key>
-					<dict>
-						<key>data</key>
-						<dict>
-							<key>qs.action</key>
-							<dict>
-								<key>actionClass</key>
-								<string>QSChat_SupportActionProvider</string>
-								<key>actionSelector</key>
-								<string>someSelector</string>
-								<key>icon</key>
-								<string>defaultAction</string>
-								<key>name</key>
-								<string>Do Something</string>
-							</dict>
-						</dict>
-					</dict>
-					<key>directID</key>
-					<string>Chat_SupportInternalCommand</string>
-				</dict>
+				<key>classTable</key>
+				<true/>
+				<key>name</key>
+				<string>Instant Messaging</string>
+				<key>type</key>
+				<string>mediator</string>
 			</dict>
 		</dict>
 		<key>QSObjectHandlers</key>
 		<dict>
 			<key>QSChat_SupportType</key>
 			<string>QSChat_SupportSource</string>
-		</dict>
-		<key>QSObjectSources</key>
-		<dict>
-			<key>QSChat_SupportSource</key>
-			<string>QSChat_SupportSource</string>
-		</dict>
-		<key>QSPreferencePanesTemplate</key>
-		<dict>
-			<key>Chat_SupportPrefPaneTemplate</key>
-			<dict>
-				<key>class</key>
-				<string>Chat_SupportPrefPane</string>
-				<key>description</key>
-				<string>Preferences</string>
-				<key>icon</key>
-				<string>KEXT</string>
-				<key>name</key>
-				<string>Chat_Support</string>
-			</dict>
 		</dict>
 		<key>QSProxiesTemplate</key>
 		<dict>
@@ -257,28 +190,6 @@
 				<array>
 					<string>QSChat_SupportType</string>
 				</array>
-			</dict>
-		</dict>
-		<key>QSTriggerEventsTemplate</key>
-		<dict>
-			<key>Chat_SupportSomeEvent</key>
-			<dict>
-				<key>icon</key>
-				<string>KEXT</string>
-				<key>name</key>
-				<string>Do something in response to this event</string>
-				<key>provider</key>
-				<string>QSChat_SupportSource</string>
-			</dict>
-		</dict>
-		<key>QSTriggerSetsTemplates</key>
-		<dict>
-			<key>Chat_SupportTriggers</key>
-			<dict>
-				<key>icon</key>
-				<string>KEXT</string>
-				<key>name</key>
-				<string>Chat Support</string>
 			</dict>
 		</dict>
 		<key>QSTypeDefinitions</key>
@@ -301,30 +212,6 @@
 		<key>version</key>
 		<string>3926</string>
 	</dict>
-	<key>QSTriggerAdditionsTemplate</key>
-	<array>
-		<dict>
-			<key>ID</key>
-			<string>Chat_SupportTrigger</string>
-			<key>command</key>
-			<string>Chat_SupportExampleCommand</string>
-			<key>defaults</key>
-			<dict>
-				<key>characters</key>
-				<string>x</string>
-				<key>keyCode</key>
-				<integer>124</integer>
-				<key>modifiers</key>
-				<integer>9961768</integer>
-				<key>type</key>
-				<string>QSHotKeyTrigger</string>
-			</dict>
-			<key>name</key>
-			<string>Example Trigger</string>
-			<key>set</key>
-			<string>Chat_Support</string>
-		</dict>
-	</array>
 	<key>QSResourceAdditions</key>
 	<dict>
 		<key>ChatBubble</key>
