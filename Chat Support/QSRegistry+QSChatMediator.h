@@ -8,6 +8,8 @@
 
 #import "QSChatMediator.h"
 
+NSString *defaultChatClientID();
+
 @interface QSRegistry (QSChatMediator)
 
 - (id <QSChatMediator>)QSChatMediator;
