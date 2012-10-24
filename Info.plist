@@ -61,7 +61,7 @@
 				<string>NSFilenamesPboardType</string>
 			</array>
 			<key>name</key>
-			<string>IM Item...</string>
+			<string>Instant Message Item…</string>
 		</dict>
 		<key>QSIMAccountSendItemReverseAction</key>
 		<dict>
@@ -81,7 +81,7 @@
 				<string>qs.im.account</string>
 			</array>
 			<key>name</key>
-			<string>IM to Account...</string>
+			<string>Instant Message to Account…</string>
 			<key>reverseArguments</key>
 			<true/>
 		</dict>
@@ -98,7 +98,7 @@
 			<key>icon</key>
 			<string>ChatBubble</string>
 			<key>name</key>
-			<string>IM</string>
+			<string>Instant Message</string>
 			<key>precedence</key>
 			<integer>1</integer>
 		</dict>
