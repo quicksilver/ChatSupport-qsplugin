@@ -42,19 +42,18 @@ enum {
 @protocol QSChatMediator
 // Returns a mask
 
-+ (int)			supportedChatTypes;
-+ (NSArray *)	supportedAccountTypes;
-
++ (int)supportedChatTypes;
++ (NSArray *)supportedAccountTypes;
 - (int)capabilitiesOfAccount:(NSString *)accountID;
-
 - (BOOL)initiateChat:(QSChatType)serviceType withAccounts:(NSArray *)accountIDs info:(id)info;
-
+- (BOOL)sendItem:(QSObject *)item toAccounts:(NSArray *)accounts;
 // Status and Icon
 // gets a flat list of available accounts as QSObjects for populating the third field of an indirect action
 // this is not neccesarily the same as the children of the chat app
-- (NSArray *) availableAccounts;
+- (NSArray *)availableAccounts;
 - (BOOL)accountIsAvailable:(NSString *)accountID;
-- (NSString *) statusForAccount:(NSString *)accountID;
+- (BOOL)contactIsAvailable:(QSObject *)contact;
+- (NSString *)statusForAccount:(NSString *)accountID;
 //- (NSImage *) imageForAccount;
 @end
 
