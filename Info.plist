@@ -196,12 +196,12 @@
 		</dict>
 		<key>QSTypeDefinitions</key>
 		<dict>
-			<key>QSChat_SupportType</key>
+			<key>qs.im.account</key>
 			<dict>
 				<key>icon</key>
-				<string>GenericDocumentIcon</string>
+				<string>ChatBubble</string>
 				<key>name</key>
-				<string>Chat_Support Object</string>
+				<string>Chat Contacts</string>
 			</dict>
 		</dict>
 	</dict>
